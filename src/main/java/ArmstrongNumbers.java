@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class ArmstrongNumbers {
 
     public static boolean isArmstrongNumber(int number) {
@@ -13,6 +11,12 @@ public class ArmstrongNumbers {
             sum = sum + (int) Math.pow(lastDigit, numberOfDigits);
             copyOfNumber = copyOfNumber / 10;
         }
-     return sum == number;
+
+        return sum == number; //skrocony zapis if return else return
+        
+        /*if (sum == number) {
+            return true;
+        } else {
+            return false;*/
     }
 }
