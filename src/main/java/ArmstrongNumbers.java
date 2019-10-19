@@ -13,7 +13,7 @@ public class ArmstrongNumbers {
         }
 
         return sum == number; //skrocony zapis if return else return
-        
+
         /*if (sum == number) {
             return true;
         } else {
