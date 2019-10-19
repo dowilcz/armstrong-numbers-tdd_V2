@@ -13,10 +13,6 @@ public class ArmstrongNumbers {
             sum = sum + (int) Math.pow(lastDigit, numberOfDigits);
             copyOfNumber = copyOfNumber / 10;
         }
-        if (sum == number) {
-            return true;
-        } else {
-            return false;
-        }
+     return sum == number;
     }
 }
